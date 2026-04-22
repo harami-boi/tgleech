@@ -9,3 +9,12 @@ testing_purpose/
 __pycache__/
 
 *.session
+
+# Credentials & secrets
+.env
+credentials.json
+token.pickle
+
+# Work directories
+BOT_WORK/
+drive/

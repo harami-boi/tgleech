@@ -1,0 +1,666 @@
+2026-04-22 15:55:22,532 [INFO] root: Checking external tools...
+2026-04-22 15:55:22,532 [INFO] root:   [OK] aria2c: D:\TEST\Telegram-Leecher\bin\aria2c.EXE
+2026-04-22 15:55:22,533 [INFO] root:   [OK] ffmpeg: D:\TEST\Telegram-Leecher\bin\ffmpeg.EXE
+2026-04-22 15:55:22,533 [INFO] root:   [OK] ffprobe: D:\TEST\Telegram-Leecher\bin\ffprobe.EXE
+2026-04-22 15:55:22,538 [INFO] root:   [OK] 7z: C:\Program Files\7-Zip\7z.exe
+2026-04-22 15:55:22,539 [INFO] root: Loading credentials...
+2026-04-22 15:55:22,539 [INFO] root: Loading credentials from .env file...
+2026-04-22 15:55:22,540 [INFO] root: Credentials loaded successfully.
+2026-04-22 15:55:22,541 [INFO] root: Removed old bot session.
+2026-04-22 15:55:22,541 [INFO] root: Starting Bot....
+2026-04-22 15:55:25,463 [INFO] root: Running on Windows — using default asyncio event loop.
+2026-04-22 15:55:27,355 [INFO] root: Colab Leecher Started !
+2026-04-22 15:55:28,364 [INFO] pyrogram.session.auth: Start creating a new auth key on DC2
+2026-04-22 15:55:28,364 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:55:28,558 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 15:55:30,770 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 15:55:30,771 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 15:55:30,930 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:55:31,115 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 15:55:31,116 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 15:55:31,527 [INFO] pyrogram.session.internals.msg_id: Time synced: 2026-04-22 10:25:30.913459 UTC
+2026-04-22 15:55:32,128 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 15:55:32,128 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 15:55:32,128 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 15:55:32,128 [INFO] pyrogram.session.session: Session started
+2026-04-22 15:55:32,164 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 15:55:32,359 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 15:55:32,360 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 15:55:32,361 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 15:55:32,361 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 15:55:32,446 [INFO] pyrogram.session.auth: Start creating a new auth key on DC5
+2026-04-22 15:55:32,446 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:55:32,653 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 15:55:34,761 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 15:55:34,762 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 15:55:34,880 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:55:35,002 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 15:55:35,003 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 15:55:35,705 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 15:55:35,705 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 15:55:35,706 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 15:55:35,706 [INFO] pyrogram.session.session: Session started
+2026-04-22 15:55:35,706 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 15:55:36,202 [INFO] pyrogram.dispatcher: Started 16 HandlerTasks
+2026-04-22 15:56:13,117 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:56:13,323 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 15:56:13,324 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 15:56:14,215 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 15:56:14,215 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 15:56:14,215 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 15:56:14,216 [INFO] pyrogram.session.session: Session started
+2026-04-22 15:56:14,217 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 15:56:14,871 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 15:56:14,871 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 15:56:14,872 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 15:56:14,873 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 15:56:18,210 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:56:18,415 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 15:56:18,416 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 15:56:19,296 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 15:56:19,296 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 15:56:19,297 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 15:56:19,297 [INFO] pyrogram.session.session: Session started
+2026-04-22 15:56:19,297 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 15:56:19,512 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 15:56:19,512 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 15:56:19,512 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 15:56:19,513 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 15:56:19,644 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:56:19,786 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 15:56:19,786 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 15:56:20,326 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 15:56:20,326 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 15:56:20,326 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 15:56:20,326 [INFO] pyrogram.session.session: Session started
+2026-04-22 15:56:20,327 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:56:20,327 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 15:56:20,532 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 15:56:20,532 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 15:56:21,415 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 15:56:21,416 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 15:56:21,416 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 15:56:21,417 [INFO] pyrogram.session.session: Session started
+2026-04-22 15:56:21,417 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 15:56:21,418 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 15:56:21,621 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 15:56:21,622 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 15:56:22,509 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 15:56:22,510 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 15:56:22,510 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 15:56:22,510 [INFO] pyrogram.session.session: Session started
+2026-04-22 15:56:22,513 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 15:56:25,492 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 15:56:25,493 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 15:56:25,493 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 15:56:25,493 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 15:56:25,494 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 15:56:25,494 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 15:56:25,494 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 15:56:25,495 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 15:56:25,495 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 15:56:25,496 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 15:56:25,496 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 15:56:25,497 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 16:04:31,463 [INFO] root: Stop signal received (SIGINT). Exiting...
+2026-04-22 16:04:31,503 [INFO] pyrogram.dispatcher: Stopped 16 HandlerTasks
+2026-04-22 16:04:31,503 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 16:04:31,504 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:04:31,504 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 16:04:31,504 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 16:04:33,059 [INFO] root: Checking external tools...
+2026-04-22 16:04:33,060 [INFO] root:   [OK] aria2c: D:\TEST\Telegram-Leecher\bin\aria2c.EXE
+2026-04-22 16:04:33,060 [INFO] root:   [OK] ffmpeg: D:\TEST\Telegram-Leecher\bin\ffmpeg.EXE
+2026-04-22 16:04:33,061 [INFO] root:   [OK] ffprobe: D:\TEST\Telegram-Leecher\bin\ffprobe.EXE
+2026-04-22 16:04:33,067 [INFO] root:   [OK] 7z: C:\Program Files\7-Zip\7z.exe
+2026-04-22 16:04:33,067 [INFO] root: Loading credentials...
+2026-04-22 16:04:33,068 [INFO] root: Loading credentials from .env file...
+2026-04-22 16:04:33,069 [INFO] root: Credentials loaded successfully.
+2026-04-22 16:04:33,070 [INFO] root: Removed old bot session.
+2026-04-22 16:04:33,070 [INFO] root: Starting Bot....
+2026-04-22 16:04:35,867 [INFO] root: Running on Windows — using default asyncio event loop.
+2026-04-22 16:04:38,556 [INFO] root: Colab Leecher Started !
+2026-04-22 16:04:40,060 [INFO] pyrogram.session.auth: Start creating a new auth key on DC2
+2026-04-22 16:04:40,061 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:04:40,230 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 16:04:42,701 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 16:04:42,701 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:04:42,801 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:04:42,993 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 16:04:42,994 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:04:43,405 [INFO] pyrogram.session.internals.msg_id: Time synced: 2026-04-22 10:34:42.776804 UTC
+2026-04-22 16:04:43,984 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:04:43,984 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:04:43,985 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:04:43,985 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:04:44,009 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:04:44,201 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 16:04:44,201 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:04:44,202 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 16:04:44,202 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 16:04:44,265 [INFO] pyrogram.session.auth: Start creating a new auth key on DC5
+2026-04-22 16:04:44,265 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:04:45,392 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 16:04:46,830 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 16:04:46,830 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:04:46,937 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:04:47,075 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 16:04:47,076 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:04:47,650 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:04:47,650 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:04:47,650 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:04:47,651 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:04:47,651 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:04:48,218 [INFO] pyrogram.dispatcher: Started 16 HandlerTasks
+2026-04-22 16:06:12,551 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:06:12,674 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 16:06:12,675 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:06:13,253 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:06:13,253 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:06:13,254 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:06:13,254 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:06:13,255 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:06:13,645 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 16:06:13,646 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:06:13,646 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 16:06:13,647 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 16:06:13,934 [INFO] root: On-Going Task Cancelled !
+2026-04-22 16:08:10,191 [INFO] root: Stop signal received (SIGINT). Exiting...
+2026-04-22 16:12:42,090 [INFO] root: Checking external tools...
+2026-04-22 16:12:42,091 [INFO] root:  [OK] aria2c: D:\TEST\Telegram-Leecher\bin\aria2c.EXE
+2026-04-22 16:12:42,092 [INFO] root:  [OK] ffmpeg: D:\TEST\Telegram-Leecher\bin\ffmpeg.EXE
+2026-04-22 16:12:42,092 [INFO] root:  [OK] ffprobe: D:\TEST\Telegram-Leecher\bin\ffprobe.EXE
+2026-04-22 16:12:42,098 [INFO] root:  [OK] 7z: C:\Program Files\7-Zip\7z.exe
+2026-04-22 16:12:42,098 [INFO] root: Loading credentials...
+2026-04-22 16:12:42,098 [INFO] root: Loading credentials from .env file...
+2026-04-22 16:12:42,099 [INFO] root: Credentials loaded successfully.
+2026-04-22 16:12:42,100 [INFO] root: Removed old bot session.
+2026-04-22 16:12:42,101 [INFO] root: Starting Bot....
+2026-04-22 16:12:44,901 [INFO] root: Running on Windows — using default asyncio event loop.
+2026-04-22 16:12:46,775 [INFO] root: Colab Leecher Started !
+2026-04-22 16:12:47,922 [INFO] pyrogram.session.auth: Start creating a new auth key on DC2
+2026-04-22 16:12:47,923 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:12:48,143 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 16:12:49,911 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 16:12:49,911 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:12:50,015 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:12:50,190 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 16:12:50,191 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:12:50,622 [INFO] pyrogram.session.internals.msg_id: Time synced: 2026-04-22 10:42:49.970656 UTC
+2026-04-22 16:12:51,533 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:12:51,534 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:12:51,534 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:12:51,535 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:12:51,551 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:12:51,730 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 16:12:51,731 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:12:51,732 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 16:12:51,732 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 16:12:51,799 [INFO] pyrogram.session.auth: Start creating a new auth key on DC5
+2026-04-22 16:12:51,800 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:12:51,919 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 16:12:53,611 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 16:12:53,612 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:12:53,712 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:12:53,858 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 16:12:53,859 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:12:54,429 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:12:54,429 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:12:54,430 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:12:54,430 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:12:54,431 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:12:54,927 [INFO] pyrogram.dispatcher: Started 16 HandlerTasks
+2026-04-22 16:16:22,302 [INFO] root: On-Going Task Cancelled !
+2026-04-22 16:44:26,705 [INFO] root: Stop signal received (SIGINT). Exiting...
+2026-04-22 16:46:56,136 [INFO] root: Checking external tools...
+2026-04-22 16:46:56,137 [INFO] root:  [OK] aria2c: D:\TEST\Telegram-Leecher\bin\aria2c.EXE
+2026-04-22 16:46:56,138 [INFO] root:  [OK] ffmpeg: D:\TEST\Telegram-Leecher\bin\ffmpeg.EXE
+2026-04-22 16:46:56,138 [INFO] root:  [OK] ffprobe: D:\TEST\Telegram-Leecher\bin\ffprobe.EXE
+2026-04-22 16:46:56,144 [INFO] root:  [OK] 7z: C:\Program Files\7-Zip\7z.exe
+2026-04-22 16:46:56,144 [INFO] root: Loading credentials...
+2026-04-22 16:46:56,144 [INFO] root: Loading credentials from .env file...
+2026-04-22 16:46:56,157 [INFO] root: Credentials loaded successfully.
+2026-04-22 16:46:56,157 [INFO] root: Removed old bot session.
+2026-04-22 16:46:56,158 [INFO] root: Starting Bot....
+2026-04-22 16:46:59,200 [INFO] root: Running on Windows — using default asyncio event loop.
+2026-04-22 16:47:04,764 [INFO] root: Colab Leecher Started !
+2026-04-22 16:47:06,346 [INFO] pyrogram.session.auth: Start creating a new auth key on DC2
+2026-04-22 16:47:06,346 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:47:06,536 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 16:47:09,492 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 16:47:09,492 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:47:09,636 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:47:09,819 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 16:47:09,820 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:47:10,219 [INFO] pyrogram.session.internals.msg_id: Time synced: 2026-04-22 11:17:09.532433 UTC
+2026-04-22 16:47:10,800 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:47:10,800 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:47:10,800 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:47:10,801 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:47:10,827 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:47:11,017 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 16:47:11,018 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:47:11,018 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 16:47:11,019 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 16:47:11,101 [INFO] pyrogram.session.auth: Start creating a new auth key on DC5
+2026-04-22 16:47:11,102 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:47:11,304 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 16:47:13,468 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 16:47:13,468 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:47:13,578 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:47:13,722 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 16:47:13,723 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:47:14,258 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:47:14,258 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:47:14,259 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:47:14,259 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:47:14,260 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:47:14,751 [INFO] pyrogram.dispatcher: Started 16 HandlerTasks
+2026-04-22 16:50:38,924 [ERROR] pyrogram.dispatcher: name 'DUMP_ID' is not defined
+Traceback (most recent call last):
+  File "C:\Users\moeto\miniconda3\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "D:\TEST\Telegram-Leecher\colab_leecher\__main__.py", line 190, in handle_options
+    await BOT.TASK
+  File "D:\TEST\Telegram-Leecher\colab_leecher\utility\task_manager.py", line 134, in taskScheduler
+    Messages.link_p = str(DUMP_ID)[4:] if str(DUMP_ID).startswith("-100") else str(DUMP_ID)
+                                              ^^^^^^^
+NameError: name 'DUMP_ID' is not defined
+2026-04-22 16:53:58,213 [INFO] root: Stop signal received (SIGINT). Exiting...
+2026-04-22 16:53:58,239 [INFO] pyrogram.dispatcher: Stopped 16 HandlerTasks
+2026-04-22 16:53:58,240 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 16:53:58,241 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:53:58,242 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 16:53:58,243 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 16:53:59,451 [INFO] root: Checking external tools...
+2026-04-22 16:53:59,452 [INFO] root:  [OK] aria2c: D:\TEST\Telegram-Leecher\bin\aria2c.EXE
+2026-04-22 16:53:59,453 [INFO] root:  [OK] ffmpeg: D:\TEST\Telegram-Leecher\bin\ffmpeg.EXE
+2026-04-22 16:53:59,454 [INFO] root:  [OK] ffprobe: D:\TEST\Telegram-Leecher\bin\ffprobe.EXE
+2026-04-22 16:53:59,459 [INFO] root:  [OK] 7z: C:\Program Files\7-Zip\7z.exe
+2026-04-22 16:53:59,460 [INFO] root: Loading credentials...
+2026-04-22 16:53:59,460 [INFO] root: Loading credentials from .env file...
+2026-04-22 16:53:59,461 [INFO] root: Credentials loaded successfully.
+2026-04-22 16:53:59,462 [INFO] root: Removed old bot session.
+2026-04-22 16:53:59,462 [INFO] root: Starting Bot....
+2026-04-22 16:54:02,343 [INFO] root: Running on Windows — using default asyncio event loop.
+2026-04-22 16:54:05,089 [INFO] root: Colab Leecher Started !
+2026-04-22 16:54:06,476 [INFO] pyrogram.session.auth: Start creating a new auth key on DC2
+2026-04-22 16:54:06,477 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:54:06,664 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 16:54:08,581 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 16:54:08,581 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:54:08,728 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:54:08,896 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 16:54:08,897 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:54:09,270 [INFO] pyrogram.session.internals.msg_id: Time synced: 2026-04-22 11:24:08.569582 UTC
+2026-04-22 16:54:09,805 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:54:09,806 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:54:09,806 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:54:09,806 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:54:09,836 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:54:10,012 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 16:54:10,012 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:54:10,013 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 16:54:10,014 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 16:54:10,113 [INFO] pyrogram.session.auth: Start creating a new auth key on DC5
+2026-04-22 16:54:10,114 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:54:10,235 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 16:54:11,781 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 16:54:11,781 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 16:54:11,908 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 16:54:12,029 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 16:54:12,029 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 16:54:12,562 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 16:54:12,562 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 16:54:12,562 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 16:54:12,563 [INFO] pyrogram.session.session: Session started
+2026-04-22 16:54:12,563 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 16:54:13,067 [INFO] pyrogram.dispatcher: Started 16 HandlerTasks
+2026-04-22 17:02:05,403 [INFO] root: Stop signal received (SIGINT). Exiting...
+2026-04-22 17:02:05,432 [INFO] pyrogram.dispatcher: Stopped 16 HandlerTasks
+2026-04-22 17:02:05,433 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:02:05,433 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:02:05,434 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:02:05,435 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:02:07,173 [INFO] root: Checking external tools...
+2026-04-22 17:02:07,174 [INFO] root:  [OK] aria2c: D:\TEST\Telegram-Leecher\bin\aria2c.EXE
+2026-04-22 17:02:07,174 [INFO] root:  [OK] ffmpeg: D:\TEST\Telegram-Leecher\bin\ffmpeg.EXE
+2026-04-22 17:02:07,175 [INFO] root:  [OK] ffprobe: D:\TEST\Telegram-Leecher\bin\ffprobe.EXE
+2026-04-22 17:02:07,180 [INFO] root:  [OK] 7z: C:\Program Files\7-Zip\7z.exe
+2026-04-22 17:02:07,180 [INFO] root: Loading credentials...
+2026-04-22 17:02:07,181 [INFO] root: Loading credentials from .env file...
+2026-04-22 17:02:07,182 [INFO] root: Credentials loaded successfully.
+2026-04-22 17:02:07,182 [INFO] root: Removed old bot session.
+2026-04-22 17:02:07,183 [INFO] root: Starting Bot....
+2026-04-22 17:02:10,047 [INFO] root: Running on Windows — using default asyncio event loop.
+2026-04-22 17:02:13,219 [INFO] root: Colab Leecher Started !
+2026-04-22 17:02:14,679 [INFO] pyrogram.session.auth: Start creating a new auth key on DC2
+2026-04-22 17:02:14,680 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:02:14,852 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 17:02:16,832 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 17:02:16,833 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:02:16,985 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:02:17,168 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 17:02:17,169 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:02:17,568 [INFO] pyrogram.session.internals.msg_id: Time synced: 2026-04-22 11:32:16.855488 UTC
+2026-04-22 17:02:18,148 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:02:18,149 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:02:18,149 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:02:18,149 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:02:18,189 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:02:18,381 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:02:18,381 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:02:18,382 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:02:18,382 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:02:18,469 [INFO] pyrogram.session.auth: Start creating a new auth key on DC5
+2026-04-22 17:02:18,470 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:02:18,677 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 17:02:20,483 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 17:02:20,484 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:02:20,558 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:02:20,771 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 17:02:20,771 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:02:21,671 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:02:21,671 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:02:21,672 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:02:21,672 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:02:21,673 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:02:22,445 [INFO] pyrogram.dispatcher: Started 16 HandlerTasks
+2026-04-22 17:02:24,757 [INFO] root: isLink checking text: https://www.papytane.com/mp4/accrobra.mp4
+2026-04-22 17:02:24,757 [INFO] root: Matched: HTTP/HTTPS Link
+2026-04-22 17:02:24,758 [INFO] root: handle_url triggered! task_going: False, started: False
+2026-04-22 17:02:27,318 [INFO] root: isLink checking text: https://www.papytane.com/mp4/accrobra.mp4
+2026-04-22 17:02:27,319 [INFO] root: Matched: HTTP/HTTPS Link
+2026-04-22 17:02:27,319 [INFO] root: handle_url triggered! task_going: False, started: False
+2026-04-22 17:02:37,985 [INFO] root: isLink checking text: https://www.papytane.com/mp4/accrobra.mp4
+2026-04-22 17:02:37,986 [INFO] root: Matched: HTTP/HTTPS Link
+2026-04-22 17:02:37,987 [INFO] root: handle_url triggered! task_going: False, started: False
+2026-04-22 17:03:51,227 [INFO] root: Stop signal received (SIGINT). Exiting...
+2026-04-22 17:03:51,256 [INFO] pyrogram.dispatcher: Stopped 16 HandlerTasks
+2026-04-22 17:03:51,256 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:03:51,256 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:03:51,257 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:03:51,257 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:04:02,182 [INFO] root: Checking external tools...
+2026-04-22 17:04:02,182 [INFO] root:  [OK] aria2c: D:\TEST\Telegram-Leecher\bin\aria2c.EXE
+2026-04-22 17:04:02,183 [INFO] root:  [OK] ffmpeg: D:\TEST\Telegram-Leecher\bin\ffmpeg.EXE
+2026-04-22 17:04:02,183 [INFO] root:  [OK] ffprobe: D:\TEST\Telegram-Leecher\bin\ffprobe.EXE
+2026-04-22 17:04:02,189 [INFO] root:  [OK] 7z: C:\Program Files\7-Zip\7z.exe
+2026-04-22 17:04:02,189 [INFO] root: Loading credentials...
+2026-04-22 17:04:02,189 [INFO] root: Loading credentials from .env file...
+2026-04-22 17:04:02,190 [INFO] root: Credentials loaded successfully.
+2026-04-22 17:04:02,191 [INFO] root: Removed old bot session.
+2026-04-22 17:04:02,191 [INFO] root: Starting Bot....
+2026-04-22 17:04:05,172 [INFO] root: Running on Windows — using default asyncio event loop.
+2026-04-22 17:04:08,373 [INFO] root: Colab Leecher Started !
+2026-04-22 17:04:10,093 [INFO] pyrogram.session.auth: Start creating a new auth key on DC2
+2026-04-22 17:04:10,094 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:04:10,282 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 17:04:12,189 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 17:04:12,190 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:04:12,391 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:04:12,578 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 17:04:12,579 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:04:12,987 [INFO] pyrogram.session.internals.msg_id: Time synced: 2026-04-22 11:34:12.267908 UTC
+2026-04-22 17:04:13,648 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:04:13,649 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:04:13,650 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:04:13,650 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:04:13,693 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:04:13,985 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:04:13,986 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:04:13,986 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:04:13,987 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:04:14,099 [INFO] pyrogram.session.auth: Start creating a new auth key on DC5
+2026-04-22 17:04:14,100 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:04:14,307 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 17:04:16,089 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 17:04:16,089 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:04:16,168 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:04:16,371 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 17:04:16,372 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:04:17,255 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:04:17,255 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:04:17,256 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:04:17,256 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:04:17,256 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:04:17,976 [INFO] pyrogram.dispatcher: Started 16 HandlerTasks
+2026-04-22 17:04:22,814 [INFO] root: isLink checking text: https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
+2026-04-22 17:04:22,815 [INFO] root: Matched: HTTP/HTTPS Link
+2026-04-22 17:04:22,815 [INFO] root: handle_url triggered! task_going: False, started: True
+2026-04-22 17:05:42,174 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:05:42,176 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:05:42,176 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:05:42,177 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:05:42,178 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:05:42,179 [INFO] pyrogram.session.session: [1] Retrying "messages.EditMessage" due to TimeoutError()
+2026-04-22 17:05:42,297 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 17:05:42,298 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:05:43,296 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:05:43,297 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:05:43,297 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:05:43,297 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:05:43,298 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:05:43,440 [ERROR] root: Error updating status bar: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content (caused by "messages.EditMessage")
+2026-04-22 17:05:44,013 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:05:44,220 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:05:44,221 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:05:45,126 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:05:45,126 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:05:45,127 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:05:45,127 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:05:45,127 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:05:45,386 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:05:45,387 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:05:45,387 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:05:45,387 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:05:45,601 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:05:45,828 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:05:45,828 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:05:46,725 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:05:46,725 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:05:46,726 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:05:46,726 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:05:46,727 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:05:46,727 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:05:46,931 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:05:46,932 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:05:47,823 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:05:47,823 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:05:47,824 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:05:47,824 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:05:47,824 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:05:47,825 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:05:47,949 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:05:47,950 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:05:48,563 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:05:48,563 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:05:48,563 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:05:48,564 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:05:48,565 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:05:51,655 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:05:51,655 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:05:51,656 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:05:51,656 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:05:51,656 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:05:51,657 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:05:51,657 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:05:51,658 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:05:51,658 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:05:51,659 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:05:51,659 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:05:51,659 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:06:40,092 [INFO] root: isLink checking text: magnet:?xt=urn:btih:049dd51e642049f960e3df085340b1a60738a781&dn=%5BToonsHub%5D%20Cheongchun%20Blossom%3A%20Uriui%20Bom%20%282026%29%20S01E02%20720p%20KBS%20TV-DL%20AAC2.0%20H.264%20%28Seasons%20of%20Blossom%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+2026-04-22 17:06:40,093 [INFO] root: Matched: Magnet Link
+2026-04-22 17:06:40,093 [INFO] root: handle_url triggered! task_going: False, started: False
+2026-04-22 17:06:40,375 [INFO] root: handle_url: task not started yet.
+2026-04-22 17:06:50,463 [INFO] root: isLink checking text: magnet:?xt=urn:btih:049dd51e642049f960e3df085340b1a60738a781&dn=%5BToonsHub%5D%20Cheongchun%20Blossom%3A%20Uriui%20Bom%20%282026%29%20S01E02%20720p%20KBS%20TV-DL%20AAC2.0%20H.264%20%28Seasons%20of%20Blossom%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+2026-04-22 17:06:50,464 [INFO] root: Matched: Magnet Link
+2026-04-22 17:06:50,464 [INFO] root: handle_url triggered! task_going: False, started: False
+2026-04-22 17:06:50,974 [INFO] root: handle_url: task not started yet.
+2026-04-22 17:06:58,146 [INFO] root: isLink checking text: magnet:?xt=urn:btih:049dd51e642049f960e3df085340b1a60738a781&dn=%5BToonsHub%5D%20Cheongchun%20Blossom%3A%20Uriui%20Bom%20%282026%29%20S01E02%20720p%20KBS%20TV-DL%20AAC2.0%20H.264%20%28Seasons%20of%20Blossom%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+2026-04-22 17:06:58,147 [INFO] root: Matched: Magnet Link
+2026-04-22 17:06:58,147 [INFO] root: handle_url triggered! task_going: False, started: True
+2026-04-22 17:07:31,144 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:07:31,349 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:07:31,349 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:07:32,246 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:07:32,247 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:07:32,247 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:07:32,247 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:07:32,248 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:07:32,879 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:07:32,879 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:07:32,880 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:07:32,881 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:07:33,077 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:07:33,194 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:07:33,195 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:07:33,720 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:07:33,720 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:07:33,720 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:07:33,721 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:07:33,721 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:07:33,722 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:07:33,835 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:07:33,836 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:07:34,364 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:07:34,365 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:07:34,365 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:07:34,366 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:07:34,366 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:07:34,367 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:07:34,568 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:07:34,569 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:07:35,458 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:07:35,459 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:07:35,459 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:07:35,459 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:07:35,461 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:07:55,587 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:07:55,588 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:07:55,589 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:07:55,589 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:07:55,590 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:07:55,590 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:07:55,591 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:07:55,591 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:07:55,591 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:07:55,591 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:07:55,592 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:07:55,592 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:09:58,695 [INFO] root: isLink checking text: magnet:?xt=urn:btih:049dd51e642049f960e3df085340b1a60738a781&dn=%5BToonsHub%5D%20Cheongchun%20Blossom%3A%20Uriui%20Bom%20%282026%29%20S01E02%20720p%20KBS%20TV-DL%20AAC2.0%20H.264%20%28Seasons%20of%20Blossom%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+2026-04-22 17:09:58,696 [INFO] root: Matched: Magnet Link
+2026-04-22 17:09:58,696 [INFO] root: handle_url triggered! task_going: False, started: False
+2026-04-22 17:09:59,206 [INFO] root: handle_url: task not started yet.
+2026-04-22 17:13:55,385 [INFO] root: Stop signal received (SIGINT). Exiting...
+2026-04-22 17:13:55,414 [INFO] pyrogram.dispatcher: Stopped 16 HandlerTasks
+2026-04-22 17:13:55,415 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:13:55,415 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:13:55,416 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:13:55,416 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:15:31,742 [INFO] root: Checking external tools...
+2026-04-22 17:15:31,743 [INFO] root:  [OK] aria2c: D:\TEST\Telegram-Leecher\bin\aria2c.EXE
+2026-04-22 17:15:31,744 [INFO] root:  [OK] ffmpeg: D:\TEST\Telegram-Leecher\bin\ffmpeg.EXE
+2026-04-22 17:15:31,744 [INFO] root:  [OK] ffprobe: D:\TEST\Telegram-Leecher\bin\ffprobe.EXE
+2026-04-22 17:15:31,749 [INFO] root:  [OK] 7z: C:\Program Files\7-Zip\7z.exe
+2026-04-22 17:15:31,749 [INFO] root: Loading credentials...
+2026-04-22 17:15:31,750 [INFO] root: Loading credentials from .env file...
+2026-04-22 17:15:31,751 [INFO] root: Credentials loaded successfully.
+2026-04-22 17:15:31,751 [INFO] root: Removed old bot session.
+2026-04-22 17:15:31,752 [INFO] root: Starting Bot....
+2026-04-22 17:15:34,605 [INFO] root: Running on Windows — using default asyncio event loop.
+2026-04-22 17:15:37,183 [INFO] root: Colab Leecher Started !
+2026-04-22 17:15:38,213 [INFO] pyrogram.session.auth: Start creating a new auth key on DC2
+2026-04-22 17:15:38,213 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:15:38,389 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 17:15:39,978 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 17:15:39,979 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:15:40,086 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:15:40,283 [INFO] pyrogram.connection.connection: Connected! Production DC2 - IPv4 - TCPAbridgedO
+2026-04-22 17:15:40,284 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:15:40,686 [INFO] pyrogram.session.internals.msg_id: Time synced: 2026-04-22 11:45:39.950715 UTC
+2026-04-22 17:15:41,392 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:15:41,392 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:15:41,393 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:15:41,393 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:15:41,418 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:15:41,619 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:15:41,620 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:15:41,621 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:15:41,621 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:15:41,699 [INFO] pyrogram.session.auth: Start creating a new auth key on DC5
+2026-04-22 17:15:41,700 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:15:41,810 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 17:15:43,449 [INFO] pyrogram.session.auth: Done auth key exchange: DhGenOk
+2026-04-22 17:15:43,449 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:15:43,557 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:15:43,664 [INFO] pyrogram.connection.connection: Connected! Production DC5 - IPv4 - TCPAbridgedO
+2026-04-22 17:15:43,664 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:15:44,200 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:15:44,201 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:15:44,201 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:15:44,201 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:15:44,202 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:15:44,684 [INFO] pyrogram.dispatcher: Started 16 HandlerTasks
+2026-04-22 17:15:57,412 [INFO] root: isLink checking text: magnet:?xt=urn:btih:049dd51e642049f960e3df085340b1a60738a781&dn=%5BToonsHub%5D%20Cheongchun%20Blossom%3A%20Uriui%20Bom%20%282026%29%20S01E02%20720p%20KBS%20TV-DL%20AAC2.0%20H.264%20%28Seasons%20of%20Blossom%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+2026-04-22 17:15:57,412 [INFO] root: Matched: Magnet Link
+2026-04-22 17:15:57,413 [INFO] root: handle_url triggered! task_going: False, started: False
+2026-04-22 17:15:57,414 [INFO] root: handle_url: task not started yet.
+2026-04-22 17:16:16,576 [INFO] root: isLink checking text: magnet:?xt=urn:btih:049dd51e642049f960e3df085340b1a60738a781&dn=%5BToonsHub%5D%20Cheongchun%20Blossom%3A%20Uriui%20Bom%20%282026%29%20S01E02%20720p%20KBS%20TV-DL%20AAC2.0%20H.264%20%28Seasons%20of%20Blossom%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+2026-04-22 17:16:16,577 [INFO] root: Matched: Magnet Link
+2026-04-22 17:16:16,578 [INFO] root: handle_url triggered! task_going: False, started: True
+2026-04-22 17:16:58,309 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:16:58,431 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:16:58,432 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:16:58,991 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:16:58,992 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:16:58,992 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:16:58,992 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:16:58,993 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:16:59,381 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:16:59,381 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:16:59,382 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:16:59,382 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:16:59,578 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:16:59,781 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:16:59,782 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:17:00,670 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:17:00,670 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:17:00,671 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:17:00,671 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:17:00,671 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:17:00,672 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:17:00,901 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:17:00,901 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:17:01,811 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:17:01,812 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:17:01,812 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:17:01,812 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:17:01,812 [INFO] pyrogram.connection.connection: Connecting...
+2026-04-22 17:17:01,813 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:17:01,936 [INFO] pyrogram.connection.connection: Connected! Production DC5 (media) - IPv4 - TCPAbridgedO
+2026-04-22 17:17:01,937 [INFO] pyrogram.session.session: NetworkTask started
+2026-04-22 17:17:02,494 [INFO] pyrogram.session.session: Session initialized: Layer 161
+2026-04-22 17:17:02,495 [INFO] pyrogram.session.session: Device: CPython 3.13.9 - Pyrogram 2.2.11
+2026-04-22 17:17:02,495 [INFO] pyrogram.session.session: System: Windows 11 (EN)
+2026-04-22 17:17:02,495 [INFO] pyrogram.session.session: Session started
+2026-04-22 17:17:02,497 [INFO] pyrogram.session.session: PingTask started
+2026-04-22 17:17:24,272 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:17:24,272 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:17:24,273 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:17:24,273 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:17:24,274 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:17:24,274 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:17:24,274 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:17:24,275 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:17:24,275 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:17:24,275 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:17:24,276 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:17:24,276 [INFO] pyrogram.session.session: Session stopped
+2026-04-22 17:22:56,353 [INFO] root: Stop signal received (SIGINT). Exiting...
+2026-04-22 17:22:56,388 [INFO] pyrogram.dispatcher: Stopped 16 HandlerTasks
+2026-04-22 17:22:56,389 [INFO] pyrogram.session.session: PingTask stopped
+2026-04-22 17:22:56,389 [INFO] pyrogram.connection.connection: Disconnected
+2026-04-22 17:22:56,390 [INFO] pyrogram.session.session: NetworkTask stopped
+2026-04-22 17:22:56,390 [INFO] pyrogram.session.session: Session stopped
