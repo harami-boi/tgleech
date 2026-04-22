@@ -55,4 +55,11 @@ if sys.platform != "win32":
 else:
   logging.info("Running on Windows — using default asyncio event loop.")
 
+import asyncio
+try:
+  loop = asyncio.get_event_loop()
+except RuntimeError:
+  loop = asyncio.new_event_loop()
+  asyncio.set_event_loop(loop)
+
 colab_bot = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
