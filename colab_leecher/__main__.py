@@ -10,7 +10,7 @@ from colab_leecher.utility.handler import cancelTask
 from .utility.variables import BOT, MSG, BotTimes, Paths
 from .utility.task_manager import taskScheduler, task_starter
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from .utility.helper import isLink, setThumbnail, message_deleter, send_settings, sysINFO
+from .utility.helper import isLink, setThumbnail, message_deleter, send_settings, sysINFO, is_ytdl_link
 
 
 src_request_msg = None
@@ -37,6 +37,14 @@ async def start(client, message):
 @colab_bot.on_message(filters.command("tupload") & filters.private)
 async def telegram_upload(client, message):
   global BOT, src_request_msg
+  if len(message.command) > 1:
+      message.text = message.text.split(maxsplit=1)[1]
+      BOT.Mode.mode = "leech"
+      BOT.Mode.ytdl = False
+      BOT.State.started = True
+      await handle_url(client, message)
+      return
+
   BOT.Mode.mode = "leech"
   BOT.Mode.ytdl = False
 
@@ -48,6 +56,14 @@ async def telegram_upload(client, message):
 @colab_bot.on_message(filters.command("gdupload") & filters.private)
 async def drive_upload(client, message):
   global BOT, src_request_msg
+  if len(message.command) > 1:
+      message.text = message.text.split(maxsplit=1)[1]
+      BOT.Mode.mode = "mirror"
+      BOT.Mode.ytdl = False
+      BOT.State.started = True
+      await handle_url(client, message)
+      return
+
   BOT.Mode.mode = "mirror"
   BOT.Mode.ytdl = False
 
@@ -70,6 +86,14 @@ async def directory_upload(client, message):
 @colab_bot.on_message(filters.command("ytupload") & filters.private)
 async def yt_upload(client, message):
   global BOT, src_request_msg
+  if len(message.command) > 1:
+      message.text = message.text.split(maxsplit=1)[1]
+      BOT.Mode.mode = "leech"
+      BOT.Mode.ytdl = True
+      BOT.State.started = True
+      await handle_url(client, message)
+      return
+
   BOT.Mode.mode = "leech"
   BOT.Mode.ytdl = True
 
@@ -163,10 +187,12 @@ async def handle_url(client, message):
       "Please wait for current task to finish."
     )
   else:
-    logging.info("handle_url: task not started yet.")
-    await message.reply_text(
-      "Please send a command like /tupload or /ytupload first before sending links!"
-    )
+    logging.info("handle_url: auto-starting task from raw link!")
+    BOT.Mode.mode = "leech"
+    BOT.Mode.ytdl = is_ytdl_link(message.text)
+    BOT.State.started = True
+    # Recursive call to process the now-started task
+    await handle_url(client, message)
 
 
 @colab_bot.on_callback_query()

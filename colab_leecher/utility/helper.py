@@ -30,16 +30,17 @@ from colab_leecher.utility.variables import (
 def isLink(_, __, update):
   if update.text:
     text = str(update.text).strip()
-    logging.info(f"isLink checking text: {text}")
+    first_line = text.split()[0] if text else ""
+    logging.info(f"isLink checking text: {first_line}")
     # Check if it's an existing local filesystem path
-    if os.path.exists(text):
+    if os.path.exists(first_line):
       logging.info("Matched: Local File Path")
       return True
-    elif text.startswith("magnet:?xt=urn:btih:"):
+    elif first_line.startswith("magnet:?xt=urn:btih:"):
       logging.info("Matched: Magnet Link")
       return True
 
-    parsed = urlparse(text)
+    parsed = urlparse(first_line)
 
     if parsed.scheme in ("http", "https") and parsed.netloc:
       logging.info("Matched: HTTP/HTTPS Link")
