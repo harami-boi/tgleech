@@ -33,10 +33,20 @@ async def progress_bar(current, total):
 async def upload_file(file_path, real_name):
   global Transfer, MSG
   BotTimes.task_start = datetime.now()
+  
+  # Filter out [METADATA] prefix from the name
+  real_name = real_name.replace("[METADATA]", "").strip()
+  
   caption = f"<{BOT.Options.caption}>{BOT.Setting.prefix} {real_name} {BOT.Setting.suffix}</{BOT.Options.caption}>"
   type_ = fileType(file_path)
 
   f_type = type_ if BOT.Options.stream_upload else "document"
+
+  # Send the Name text to the dump channel before sending the file
+  try:
+    await colab_bot.send_message(chat_id=DUMP_ID, text=f"`{real_name}`")
+  except Exception as e:
+    logging.error(f"Error sending Name text: {e}")
 
   # Upload the file
   try:
