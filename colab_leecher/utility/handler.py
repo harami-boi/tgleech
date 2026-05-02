@@ -46,7 +46,7 @@ async def Leech(folder_path: str, remove: bool):
     from colab_leecher import DUMP_ID, colab_bot
     torrent_name = Messages.download_name.replace("[METADATA]", "").strip()
     if torrent_name:
-      await colab_bot.send_message(chat_id=DUMP_ID, text=f"`{torrent_name}`")
+      await colab_bot.send_message(chat_id=DUMP_ID, text=f"<b>{torrent_name}</b>")
   except Exception as e:
     logging.error(f"Error sending Torrent Name text: {e}")
 
