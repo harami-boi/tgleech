@@ -42,13 +42,6 @@ async def upload_file(file_path, real_name):
 
   f_type = type_ if BOT.Options.stream_upload else "document"
 
-  # Send the Name text to the dump channel before sending the file
-  try:
-    torrent_name = Messages.download_name.replace("[METADATA]", "").strip()
-    await colab_bot.send_message(chat_id=DUMP_ID, text=f"`{torrent_name}`")
-  except Exception as e:
-    logging.error(f"Error sending Name text: {e}")
-
   # Upload the file
   try:
     if f_type == "video":

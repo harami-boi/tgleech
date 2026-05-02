@@ -40,6 +40,16 @@ from colab_leecher.utility.helper import (
 
 async def Leech(folder_path: str, remove: bool):
   global BOT, BotTimes, Messages, Paths, Transfer
+
+  # Send the magnet/torrent name to the dump channel once before starting uploads
+  try:
+    from colab_leecher import DUMP_ID, colab_bot
+    torrent_name = Messages.download_name.replace("[METADATA]", "").strip()
+    if torrent_name:
+      await colab_bot.send_message(chat_id=DUMP_ID, text=f"`{torrent_name}`")
+  except Exception as e:
+    logging.error(f"Error sending Torrent Name text: {e}")
+
   files = [str(p) for p in pathlib.Path(folder_path).glob("**/*") if p.is_file()]
   for f in natsorted(files):
     file_path = f # Already absolute path from glob
