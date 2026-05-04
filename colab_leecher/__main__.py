@@ -146,7 +146,23 @@ async def handle_url(client, message):
   BOT.Options.unzip_pswd = ""
 
   if src_request_msg:
-    await src_request_msg.delete()
+    try:
+      await src_request_msg.delete()
+    except Exception:
+      pass
+
+  # Handle queueing when a task is already running
+  if BOT.State.task_going:
+    logging.info("handle_url: task is going, adding to queue!")
+    BOT.QUEUE.append({
+        "message": message,
+        "mode": BOT.Mode.mode,
+        "ytdl": BOT.Mode.ytdl
+    })
+    BOT.State.started = False
+    await message.reply_text(f"Task added to queue (Position #{len(BOT.QUEUE)}) ⏳")
+    return
+
   if BOT.State.task_going == False and BOT.State.started:
     temp_source = message.text.splitlines()
 
@@ -179,12 +195,6 @@ async def handle_url(client, message):
       text=f"Task Type: {BOT.Mode.mode.capitalize()}",
       reply_markup=keyboard,
       quote=True,
-    )
-  elif BOT.State.started:
-    logging.info("handle_url: task is already going!")
-    await message.delete()
-    await message.reply_text(
-      "Please wait for current task to finish."
     )
   else:
     logging.info("handle_url: auto-starting task from raw link!")

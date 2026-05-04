@@ -45,16 +45,21 @@ async def task_starter(message, text):
   global BOT
   await message.delete()
   BOT.State.started = True
-  if BOT.State.task_going == False:
-    src_request_msg = await message.reply_text(text)
-    return src_request_msg
-  else:
-    msg = await message.reply_text(
-      "I am already working ! Please wait until I finish !!"
-    )
-    await sleep(15)
-    await msg.delete()
-    return None
+  src_request_msg = await message.reply_text(text)
+  return src_request_msg
+
+
+async def check_queue():
+  global BOT
+  if len(BOT.QUEUE) > 0:
+    from colab_leecher.__main__ import handle_url
+    from colab_leecher import colab_bot
+    next_task = BOT.QUEUE.pop(0)
+    BOT.Mode.mode = next_task["mode"]
+    BOT.Mode.ytdl = next_task["ytdl"]
+    BOT.State.started = True
+    logging.info(f"Processing queued task. Remaining in queue: {len(BOT.QUEUE)}")
+    await handle_url(colab_bot, next_task["message"])
 
 
 async def taskScheduler():

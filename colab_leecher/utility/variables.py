@@ -18,6 +18,7 @@ PROJECT_ROOT = os.path.dirname(_PACKAGE_DIR)       # project root
 class BOT:
   SOURCE = []
   TASK = None
+  QUEUE = []
   class Setting:
     stream_upload = "Media"
     convert_video = "Yes"

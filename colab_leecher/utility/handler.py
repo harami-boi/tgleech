@@ -221,6 +221,8 @@ async def cancelTask(Reason: str):
         chat_id=OWNER,
         text=text
       )
+      from colab_leecher.utility.task_manager import check_queue
+      await check_queue()
 
 
 async def SendLogs(is_leech: bool):
@@ -275,3 +277,6 @@ async def SendLogs(is_leech: bool):
 
   BOT.State.started = False
   BOT.State.task_going = False
+  
+  from colab_leecher.utility.task_manager import check_queue
+  await check_queue()
