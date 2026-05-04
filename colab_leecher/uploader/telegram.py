@@ -42,12 +42,6 @@ async def upload_file(file_path, real_name):
 
   f_type = type_ if BOT.Options.stream_upload else "document"
 
-  # Send the file name first
-  try:
-    await colab_bot.send_message(chat_id=DUMP_ID, text=f"`{real_name}`")
-  except Exception as e:
-    logging.warning(f"Failed to send file name message: {e}")
-
   # Upload the file
   try:
     if f_type == "video":

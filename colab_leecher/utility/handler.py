@@ -40,19 +40,24 @@ from colab_leecher.utility.helper import (
 
 async def Leech(folder_path: str, remove: bool):
   global BOT, BotTimes, Messages, Paths, Transfer
-
-  # Send the magnet/torrent name to the dump channel once before starting uploads
-  try:
-    from colab_leecher import DUMP_ID, colab_bot
-    torrent_name = Messages.download_name.replace("[METADATA]", "").strip()
-    if torrent_name:
-      await colab_bot.send_message(chat_id=DUMP_ID, text=f"<b>{torrent_name}</b>")
-  except Exception as e:
-    logging.error(f"Error sending Torrent Name text: {e}")
+  from colab_leecher import DUMP_ID, colab_bot
+  
+  last_sent_name = None
 
   files = [str(p) for p in pathlib.Path(folder_path).glob("**/*") if p.is_file()]
   for f in natsorted(files):
     file_path = f # Already absolute path from glob
+
+    # Send the magnet/torrent name to the dump channel when processing a new top-level item
+    try:
+      rel_path = ospath.relpath(file_path, folder_path)
+      current_name = rel_path.split(os.sep)[0].replace("[METADATA]", "").strip()
+      
+      if current_name and current_name != last_sent_name:
+        last_sent_name = current_name
+        await colab_bot.send_message(chat_id=DUMP_ID, text=f"<b>{current_name}</b>")
+    except Exception as e:
+      logging.error(f"Error sending Torrent Name text: {e}")
 
     # Converting Video Files
     if BOT.Options.convert_video and fileType(file_path) == "video":
